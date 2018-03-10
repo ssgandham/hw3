@@ -1,0 +1,47 @@
+Script began: Fri Mar 9 15:05:22 PST 2018
+Node: compute-1-14.local
+Current directory: /data/users/sgandham/hw3
+
+=== Running 5 trials of naive ... ===
+*** Trial 1 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute sequential index GPU reduction kernel: 0.001767 secs
+Effective bandwidth: 18.99 GB/s
+Time to execute naive CPU reduction: 0.116133 secs
+SUCCESS: GPU: 41.939304  CPU: 41.939304
+*** Trial 2 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute sequential index GPU reduction kernel: 0.001768 secs
+Effective bandwidth: 18.98 GB/s
+Time to execute naive CPU reduction: 0.116134 secs
+SUCCESS: GPU: 41.940777  CPU: 41.940777
+*** Trial 3 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute sequential index GPU reduction kernel: 0.001775 secs
+Effective bandwidth: 18.90 GB/s
+Time to execute naive CPU reduction: 0.11604 secs
+SUCCESS: GPU: 41.946892  CPU: 41.946892
+*** Trial 4 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute sequential index GPU reduction kernel: 0.001768 secs
+Effective bandwidth: 18.98 GB/s
+Time to execute naive CPU reduction: 0.116068 secs
+SUCCESS: GPU: 41.950714  CPU: 41.950714
+*** Trial 5 ***
+N: 8388608
+Timer: gettimeofday
+Timer resolution: ~ 1 us (?)
+Time to execute sequential index GPU reduction kernel: 0.001768 secs
+Effective bandwidth: 18.98 GB/s
+Time to execute naive CPU reduction: 0.116055 secs
+SUCCESS: GPU: 41.952171  CPU: 41.952168
+
+=== Done! ===
